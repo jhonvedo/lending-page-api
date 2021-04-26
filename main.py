@@ -1,10 +1,9 @@
 from flask import Flask, request, make_response
-from flask_cors import CORS
+
 import json
 
 def create_app():
     app = Flask(__name__)  
-    CORS(app)
     return app
 
 
