@@ -10,6 +10,9 @@ def create_app():
 
 app = create_app()
 
+@app.route("/", methods=["GET"])
+def get():    
+    return "Developed by Jhon Acevedo"
 
 @app.route("/api/v1/credit", methods=["POST"])
 def post():
