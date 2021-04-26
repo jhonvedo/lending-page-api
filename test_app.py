@@ -1,5 +1,5 @@
 import unittest
-from main import app
+from app import app
 import json
  
  
